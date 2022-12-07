@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+body{
+    text-align: center;
+    background: url(https://cdn.pixabay.com/photo/2022/10/03/23/41/house-7497001_960_720.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+form{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    padding: 25px 50px;
+    width: fit-content;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+label{
+    width: 180px;
+    display: inline-block;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size:x-large;
+    
+}
+
+input{
+    padding:10px;
+    border-radius: 5px;
+    padding-right: 80px;
+    font-size: larger;
+    
+}
+
+.buton1{
+    font-size: larger;
+    margin-right:30px;
+    border-color: transparent;
+    width:25px;
+    border-radius: 8px;
+    padding-left: 38px;    
+}
+
+.buton2{
+    font-size: larger;
+    border-color: transparent;
+    width:25px;
+    border-radius: 8px;
+    padding-left: 38px;    
+}
+.buton1:hover{
+    cursor: pointer;
+    background-color: rgb(138, 206, 37) ;
+    color: white;
+    font-weight: 600;
+}
+
+.buton2:hover{
+    cursor: pointer;
+    background-color:red ;
+    color: white;
+    font-weight: 600;
+}
