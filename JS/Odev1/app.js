@@ -15,3 +15,4 @@ if (operator == "+") {
   alert("Yanlış bir işlem denediniz!!");
 }
 console.log(`İşleminizin sonucu: ${nr1} ${operator} ${nr2} = ${result}`);
+alert(`İşleminizin sonucu: ${nr1} ${operator} ${nr2} = ${result}`);
