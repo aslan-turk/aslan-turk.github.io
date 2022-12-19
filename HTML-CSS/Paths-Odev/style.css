@@ -10,11 +10,16 @@ body {
   background: linear-gradient(to right, grey, orange, grey);
 }
 
+main{
+  text-align: center;
+}
+
 h1 {
   text-align: center;
   font-family: "Rubik Glitch", cursive;
   font-size: 5rem;
   letter-spacing: 3px;
+  
 }
 
 img {
@@ -34,14 +39,15 @@ img:hover {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 5px;
-  margin: 1rem 5rem;
+  margin:1rem 0 1rem 0;
   padding: 1rem;
-  width: 90%;
+  width: 80%;
 }
 
 h3 {
   color: gold;
   font-size: 2rem;
+  text-align: left;
 }
 
 p {
