@@ -1,6 +1,5 @@
 let trial = 5;
 const sayi = Math.round(Math.random() * 100);
-console.log(sayi);
 let guess = +prompt(
   `Guess a number between 0 and 100(You have ${trial} Health)`
 );
