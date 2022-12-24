@@ -40,7 +40,7 @@ html {
 }
 .background__img5 {
   background-image: url("./img/bg1.jpg");
-  min-height: 80%;
+  min-height: 100%;
 }
 
 .heading__container {
