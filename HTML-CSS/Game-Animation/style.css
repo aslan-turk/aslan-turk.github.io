@@ -44,6 +44,11 @@ body {
   overflow: hidden;
   margin-top: 300px;
   transform: scale(0.2);
+  transition: all 0.2s ease-out;
+}
+
+.char:active {
+  transform: translateY(-100px) scale(0.2);
 }
 
 .character {
