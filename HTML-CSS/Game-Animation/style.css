@@ -35,6 +35,23 @@ body {
   animation: hop-up 1s linear infinite;
 }
 
+.char {
+  position: absolute;
+  bottom: -5.3rem;
+  left: 10%;
+  height: 350px;
+  width: calc(1400px / 5);
+  overflow: hidden;
+  margin-top: 300px;
+  transform: scale(0.2);
+}
+
+.character {
+  height: 770px;
+  width: 1400px;
+  animation: move 1s steps(1) infinite;
+}
+
 @keyframes right {
   100% {
     transform: translateX(-38.3%);
@@ -44,5 +61,47 @@ body {
 @keyframes hop-up {
   50% {
     transform: translateY(-2px);
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, -1%);
+  }
+
+  11% {
+    transform: translate(-20%, -4%);
+  }
+
+  22% {
+    transform: translate(-40%, -6%);
+  }
+
+  33% {
+    transform: translate(-60%, -7%);
+  }
+
+  44% {
+    transform: translate(-80%, -8%);
+  }
+
+  55% {
+    transform: translate(0, -48%);
+  }
+
+  66% {
+    transform: translate(-20%, -49%);
+  }
+
+  77% {
+    transform: translate(-40%, -49%);
+  }
+
+  88% {
+    transform: translate(-60%, -51%);
+  }
+
+  99% {
+    transform: translate(-80%, -50%);
   }
 }
