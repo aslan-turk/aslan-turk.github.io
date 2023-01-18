@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.change-button {
+    padding: 2rem;
+    border-radius: 20px 0px 20px 0px;
+    background: linear-gradient(45deg,yellow,blue,red,orange,green,indigo,violet);
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    border: none;
+}
+
+.change-button:hover {
+    box-shadow: 5px 10px rgba(0, 0, 0, .7);
+    border: solid;
+
+}
